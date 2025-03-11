@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table color</title>
+    <style>
+        table{
+            border-collapse;
+            width: 50%;
+            text-align: center;
+        }
+        td, th{
+            width: 50px;
+            height: 30px;
+            border: 1px solid black;
+        }
+        .red{ background: red; }
+        .blue{ background: blue; height: 40px; }
+        .green{ background: green; height: 40px; }
+        .purple{ background: purple; height: 40px; }
+        .white{ background: white; }
+    </style>
+</head>
+<body>
+
+    <table border="1" style="width: 300px; text-align:center; margin-left: auto; margin-right: auto;">
+        <tr>
+            <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th> <th>7</th> <th>8</th> <th>9</th>
+        </tr>
+        <tr>
+            <td class="red" rowspan="5"></td>
+            <td></td>
+            <td></td>
+            <td class="green" colspan="3"></td>
+            <td></td>
+            <td></td>
+            <td class="red" rowspan="5"></td>
+        </tr>
+
+        <tr>
+            <td class="blue" colspan="7"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td class="purple"></td>
+            <td></td>
+            <td class="purple"></td>
+            <td></td>
+            <td class="purple"></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="green" colspan="7"></td>
+        </tr>
+
+        <tr>
+            <td class="purple" colspan="7"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
