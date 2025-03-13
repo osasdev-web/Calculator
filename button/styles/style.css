@@ -1,0 +1,46 @@
+button {
+    background-color: gold;
+    color: white;
+    padding: 20px;
+}
+
+.rebel{
+    background-color: black;
+    padding: 10px;
+}
+
+h1{
+    color: blue;
+    margin-left: 100px;
+}
+p{
+    color: green;
+    margin-left: 100px;
+}
+.join{
+    background-color: blue;
+    padding: 10px;
+    margin-left: 100px;
+}
+h2{
+    color: red;
+    margin-left: 100px;
+    
+}
+ol{
+    color: blue;
+    margin-left: 100px;
+
+}
+.o{
+    color: red;
+}
+.l{
+    color: green;
+}
+.n{
+    color: gold;
+}
+.m{
+    color: purple;
+}
